@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1 style="color: #000000; size: 100px; margin-top: 20px;">Techfolio</h1>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#social-media">Social Media</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 style="text-align: start; margin-bottom: 15px;">About Me</h2>
+            <p>As a seasoned software engineer with over ten years of experience, I bring a wealth of knowledge in building creative solutions and leading projects to success. My expertise covers a wide range of technologies and areas, including web development, mobile applications, and machine learning. I thrive in creating scalable and efficient code that prioritizes user experience and project objectives. With a track record of delivering high-quality software solutions on time, I thrive in dynamic workplaces where I can apply my analytical talents and problem-solving ability to face tough challenges head on.</p>
+        </div>
+    </section>
+
+
+    <section id="projects">
+        <div class="container">
+            <h2 style="margin-bottom: 20px;">Projects</h2>
+            <div class="project-box">
+                <div class="project">
+                    <h3 style="margin-bottom: 10px;">E-commerce Platform Integration</h3>
+                    <p>&quot;I created a reliable method to link our client's E-commerce platform to several services, such as order tracking APIs, inventory management systems, and payment gateways. We improved corporate processes and user purchasing experiences by streamlining communication between various components through the implementation of RESTful APIs.&quot;
+                    </p>
+                    <button onclick="openModal('E-commerce Platform Integration')" style="margin-top: 15px; margin-bottom: 15px;">View Details</button>
+                </div>
+
+                <div class="project">
+                <h3 style="margin-bottom: 10px;">Machine Learning Chatbot</h3>
+                <p>&quot;Machine Learning Chatbot: I was in charge of using machine learning methods to create a sophisticated chatbot. The chatbot uses natural language processing to understand user inquiries and provide tailored recommendations and responses. This project demonstrated our proficiency in utilizing cutting-edge technologies for workable solutions while also increasing user engagement.&quot;
+                </p>
+                <button onclick="openModal('Machine Learning Chatbot')" style="margin-top: 15px; margin-bottom: 15px;">View Details</button>
+                </div>
+
+                <div class="project">
+                <h3 style="margin-bottom: 10px;">Cross-Platform Mobile Application</h3>
+                <p>&quot;Cross-Platform Mobile Application: Using React Native, I oversaw the creation of a cross-platform mobile application that let our customer reach a larger audience on iOS and Android smartphones. High customer satisfaction and higher adoption rates were the outcome of the careful implementation of features like offline support and real-time data synchronization, which guaranteed a flawless user experience.&quot;
+                </p>
+                <button onclick="openModal('Cross-Platform Mobile Application')" style="margin-top: 15px; margin-bottom: 15px;">View Details</button>
+                </div>
+
+                <div class="project">
+                <h3 style="margin-bottom: 10px;">Automated Testing Framework</h3>
+                <p>&quot;Automated Testing Framework: I conceptualized and implemented an automated testing framework to streamline our software testing processes. Leveraging tools like Selenium, we automated test scenarios, reducing manual effort and accelerating release cycles. The integration of continuous testing practices into our development pipeline significantly improved software quality and reliability.&quot;
+                </p>
+                <button onclick="openModal('Automated Testing Framework')"  style="margin-top: 15px; margin-bottom: 15px;">View Details</button>
+                </div>
+            </div>
+
+            
+            
+        </div>
+    </section>
+
+    <section id="social-media" class="social-media">
+        <div class="container">
+            <h2>Social Media</h2>
+            <ul class="social-media-icons">
+                <li>
+                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i><strong>Facebook</strong></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i><strong>Instagram</strong></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i><strong>Twitter</strong></a></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/" target="_blank"><i class="fab fa-linkedin"></i><strong>LinkedIn</strong></a>
+                </li>
+                <li>
+                    <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i><strong>GitHUb</strong></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i><strong>YouTube</strong></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <p>&quot;With a decade-long journey in software engineering, I bring forth a rich tapestry of expertise spanning across diverse technological landscapes. My career reflects an incessant pursuit of innovation and excellence, crafting robust solutions and navigating complex challenges with finesse. My forte lies in web development, mobile applications, and machine learning, where I've consistently delivered transformative solutions tailored to diverse user needs.At the heart of my approach is an unwavering commitment to user-centric design and seamless functionality. Leveraging cutting-edge technologies, I've spearheaded projects that push the boundaries of what's possible, from intricate E-commerce integrations to sophisticated machine learning chatbots. My portfolio resonates with cross-platform mobile applications that seamlessly bridge the gap between businesses and their audience, ensuring unparalleled user experiences.In parallel, I've championed the adoption of automated testing frameworks, revolutionizing our software development lifecycle. Through meticulous attention to detail and a penchant for optimization, I've elevated software quality while streamlining processes, resulting in accelerated release cycles and enhanced product reliability.As a collaborative team player and a proactive problem solver, I thrive in dynamic environments where innovation is not just encouraged but celebrated. My journey as a software engineer epitomizes a relentless pursuit of excellence, driven by a passion for crafting solutions that make a tangible difference.&quot;</p>
+            <button class="resume-button">View my resume</button>
+        </div>
+    </section>
+    
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Project Details</h2>
+            <p>Details of the project will be displayed here.</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Techfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: transparent;
+    color: #ffffff;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: none;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+
+nav ul li:first-child {
+    margin-left: auto;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #0088ff;
+    color: #ffffff;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    text-align: center;
+}
+
+.project {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.project img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    color: #ffffff;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+.resume-button {
+    background-color: #63ace5;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+    background-color: #000000;
+}
+
+.social-media-icons {
+    list-style-type: none;
+}
+
+.social-media-icons li {
+    margin-bottom: 10px;
+}
+
+.social-media-icons a {
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.social-media-icons a:hover {
+    color: #0000FF;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    text-align: center;
+}
+
+.project {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.project img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: #000000;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+}
+
+
+.project-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project {
+    width: calc(50% - 20px);
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.project:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.project {
+    border: 3px solid #0088ff;
+}
+
+.project h3 {
+    color: #0088ff;
+}
+
+.project p {
+    color: #000000;
+}
+
+</style>
+
+<script>
+function openModal(project) {
+    document.getElementById('modal').style.display = 'block';
+    document.querySelector('.modal-content p').innerText = 'Details of ' + project + ' will be displayed here.';
+}
+
+function closeModal() {
+    document.getElementById('modal').style.display = 'none';
+}
+
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+</script>
+</html>
